@@ -1,6 +1,6 @@
-# Avionics Boards for the Joliat-1KM Rocket
+# Avionics Boards for the Joliot Rocket
 
-This repository contains the design files for the avionics boards used in the **Joliat-1KM** rocket developed by **Cactus Rockets Design**.
+This repository contains the design files for the avionics boards used in the **Joliot rocket** developed by **Cactus Rockets Design**.
 
 ### Description
 
