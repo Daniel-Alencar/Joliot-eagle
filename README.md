@@ -1,23 +1,32 @@
-# Placas da aviônica para o foguete Joliat-1KM
+# Avionics Boards for the Joliat-1KM Rocket
 
-Nesse repositório temos os arquivos das placas que farão parte da aviônica do foguete Joliat de 1km da Cactus Rockets Design.
+This repository contains the design files for the avionics boards used in the **Joliat-1KM** rocket developed by **Cactus Rockets Design**.
 
-### Descrição
+### Description
 
-Temos duas placas principais para esta aviônica:
-- Placa de Processamento
-- Placa de Acionamento
+The avionics system is composed of two main boards:
 
-A placa de processamento é responsável pelo processamento dos dados dos módulos, armazenamento desses dados e telemetria. A placa de acionamento possui o circuito necessário para a correta ativação do Skib.
+* **Processing Board**
+* **Actuation Board**
 
-OBS.: Os arquivos das placas podems ser abertos por meio software Eagle da Autodesk.
+The **Processing Board** is responsible for handling sensor data, data logging, and telemetry transmission.
+The **Actuation Board** contains the circuitry required for the correct activation of the *Skib* (the recovery deployment mechanism).
 
-### Esquemáticos e layouts
+*Note:* All board files can be opened using **Autodesk Eagle**.
 
-### Conexões entre placas
+### Schematics and Layouts
 
-### Funcionamento
+(Insert links or images here.)
 
-A placa de processamento contém um switch de ativação do sistema. No momento que o switch é pressionado, o sistema liga e faz a leitura dos módulos. Após cada leitura, ele armazena esses valores no microSD e envia esses dados via telemetria.
+### Board Interconnections
 
-No momento que a placa de processamento detectar uma queda, ela envia um sinal para a placa de acionamento para que a mesma ative o Skib da parte de recuperação.
+(Insert connection diagrams or pin mapping as needed.)
+
+### Operation
+
+The Processing Board includes a system-activation switch. Once the switch is pressed, the system powers on and begins reading all onboard modules. After each reading, the data is stored on a microSD card and transmitted via telemetry.
+
+When the Processing Board detects a fall event, it sends a signal to the Actuation Board, which then activates the *Skib* to deploy the recovery system.
+
+
+Se quiser, posso melhorar o texto para ficar mais técnico, criar diagramas ASCII para as conexões ou organizar o README em um formato mais sofisticado.
